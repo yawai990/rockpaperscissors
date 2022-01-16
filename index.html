@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <title>Rock Paper Scissor</title>
+</head>
+
+<body>
+
+    <div class="intro-page">
+        <h2>Rock Paper Scissor</h2>
+        <div class="image-container">
+            <img src="./img/svg/rock.svg" alt="" class="img rock-hand" />
+            <img src="./img/svg/paper.svg" alt="" class="img paper-hand" />
+            <img src="./img/svg/scissors.svg" alt="" class="img scissors-hand" />
+        </div>
+
+        <button class="btn play">Let's Play</button>
+
+    </div>
+
+    <div class="match-section">
+
+        <section class="score-board">
+
+            <div class="player-side">
+                <h2>Player Score</h2>
+                <h4 class="player-score">0</h4>
+            </div>
+
+            <div class="computer-side">
+                <h2>Computer Score</h2>
+                <h4 class="computer-score">0</h4>
+            </div>
+
+        </section>
+
+        <h3 class="winner">Who is the winner?</h3>
+
+        <section class="img-display">
+
+            <img src="./img/svg/rock.svg" alt="" class="display player-display" />
+            <img src="./img/svg/rock.svg" alt="" class="display computer-display" />
+
+        </section>
+
+        <section class="option">
+            <button class="btn">rock</button>
+            <button class="btn">paper</button>
+            <button class="btn">scissors</button>
+        </section>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
